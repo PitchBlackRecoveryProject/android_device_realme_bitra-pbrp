@@ -25,11 +25,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := bitra
-PRODUCT_NAME := twrp_bitra
+PRODUCT_NAME := omni_bitra
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := GT Neo 2
 PRODUCT_MANUFACTURER := Realme
